@@ -31,7 +31,4 @@ function SendEmail() {
   }
 }
 
-toggleNavBtn.addEventListener("click", (e) => {
-  e.preventDefault();
-  ToggleNav;
-});
+toggleNavBtn.addEventListener("click", ToggleNav);
