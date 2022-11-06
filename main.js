@@ -22,7 +22,7 @@ function SendEmail() {
     return;
   } else {
     window.location.href =
-      "mailto:amersinger21@gmail.com?subject=New%20Contact%20From%20" +
+      "mailto:matthewdangerlippman@gmail.com?subject=New%20Contact%20From%20" +
       document.getElementById("name").value +
       "&body=" +
       document.getElementById("msg").value;
